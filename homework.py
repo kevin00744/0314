@@ -65,13 +65,13 @@ def RockScissorPaper():
     p = 'paper'
     def user():
         user = input('Please enter rock(1), scissor(2), or papper(3)\n>')
-        if user == r or user == 1:
+        if user == r or user == '1':
             user = 1
             uc = r
-        elif user == s or user == 2:
+        elif user == s or user == '2':
             user = 2
             uc = s
-        elif user ==  p or user == 3:
+        elif user ==  p or user == '3':
             user = 3
             uc = p
         else:
